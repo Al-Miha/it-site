@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Welcome To PlattformIT</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><div class="h3">plattform<span class="fw-bold">IT</span></div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <div class="h3">
+                plattform<span class="fw-bold offcanvas-IT">IT</span>
+              </div>
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Cards non responsive -->
+    <!-- <section class="my-5">
+      <div class="container">
+        <div class="cards-container">
+          <div class="pricing-cards">
+            <div class="pricing-card">
+              <h1 class="card-price">14.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">BASIC</div>
+            </div>
+            <div class="pricing-card">
+              <h1 class="card-price">24.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">STANDARD</div>
+            </div>
+            <div class="pricing-card">
+              <h1 class="card-price">49.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">PREMIUM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Cards responsive -->
+    <section class="my-6">
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-xl-4 d-flex justify-content-center">
+            <div class="pricing-card card-1 mb-6">
+              <h1 class="card-price">100€</h1>
+              <h3 class="month">Basic features&nbsp;&nbsp;</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fas fa-solid fa-check"></i>
+                  <span>Custom domain.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">BASIC</div>
+            </div>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center">
+            <div class="pricing-card card-2 mb-6">
+              <h1 class="card-price">150€</h1>
+              <h3 class="month">Standard package &nbsp;&nbsp;</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">STANDARD</div>
+            </div>
+          </div>
+          <div class="col-xl-4 d-flex justify-content-center">
+            <div class="pricing-card card-3 mb-6">
+              <h1 class="card-price">200€</h1>
+              <h3 class="month">All included &nbsp;&nbsp;</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">PREMIUM</div>
+            </div>
+          </div>
+        </div>
+        <!-- BIG SCREEN NON RESPONSIVE !!!!!???? -->
+        <!-- <div class="cards-container">
+          <div class="pricing-cards">
+            <div class="pricing-card">
+              <h1 class="card-price">14.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">BASIC</div>
+            </div>
+            <div class="pricing-card">
+              <h1 class="card-price">24.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-xmark"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">STANDARD</div>
+            </div>
+            <div class="pricing-card">
+              <h1 class="card-price">49.99$</h1>
+              <h3 class="month">/ Month</h3>
+              <div class="list">
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+                <div class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </div>
+              <button type="button" class="card-btn">Buy Now</button>
+              <div class="card-top">PREMIUM</div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-secondary py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6>About Vera</h6>
+            <p>
+              Vera is a dedicated software solutions company that aims to
+              provide exceptional services to its clients. We are committed to
+              delivering innovative and customized solutions that meet your
+              specific business needs.
+            </p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="privacy.html">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="index.html#expertise">Expertise</a>,
+                <a href="index.html#pricing">Pricing</a>,
+                <a href="index.html#newsletter">Newsletter</a>
+              </li>
+              <li>
+                Menu: <a href="index.html">Home</a>,
+                <a href="index.html#details">Details</a>,
+                <a href="index.html#solutions">Solutions</a>,
+                <a href="index.html#projects">Projects</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-light mx-2"></i>
+              </a>
+            </div>
+            <p>
+              We would love to hear from you
+              <a href="mailto:contact@site.com"
+                ><strong>contact@site.com</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/replaceme.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
