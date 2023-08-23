@@ -6,6 +6,14 @@
 .xl-text {
   font-size: 65px;
 }
+
+.md-text {
+  font-size: 45px;
+}
+
+.sm-text {
+  font-size: 1.25rem;
+}
 .navbar-brand span {
   // color: #1bd6b7 !important;
   color: var(--bs-primary);
@@ -50,6 +58,9 @@
   width: 24px;
 }
 
+.btn-banner {
+  border-radius: 9px !important;
+}
 .hr-heading {
   display: inline-block;
   width: 3.5rem;

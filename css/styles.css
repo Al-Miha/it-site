@@ -2,6 +2,14 @@
   font-size: 65px;
 }
 
+.md-text {
+  font-size: 45px;
+}
+
+.sm-text {
+  font-size: 1.25rem;
+}
+
 .navbar-brand span {
   color: var(--bs-primary);
 }
@@ -41,6 +49,10 @@
 .vertical-decoration {
   top: 12%;
   width: 24px;
+}
+
+.btn-banner {
+  border-radius: 9px !important;
 }
 
 .hr-heading {
