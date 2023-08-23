@@ -59,7 +59,7 @@
 }
 
 .btn-banner {
-  border-radius: 9px !important;
+  border-radius: 5px !important;
 }
 .hr-heading {
   display: inline-block;
@@ -262,6 +262,12 @@
   position: relative;
 }
 
+@media (max-width: 562px) {
+  .pricing-card {
+    width: 270px;
+    height: 450px;
+  }
+}
 .card-1 {
   transform: translateX(-15rem);
   opacity: 0;
