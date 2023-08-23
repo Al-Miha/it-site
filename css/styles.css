@@ -33,7 +33,7 @@
   }
 }
 .header {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../images/bg-banner.jpg") left center no-repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("../images/bg-banner2.jpg") left center no-repeat;
   background-size: cover;
   height: 600px;
 }
@@ -59,7 +59,7 @@
 
 .navbar-sticky {
   opacity: 0.8;
-  opacity: 0.99;
+  opacity: 0.97;
 }
 
 .details .vertical-decoration {
@@ -160,7 +160,7 @@
   }
   .header {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../images/bg-banner.jpg") center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/bg-banner2.jpg") right right no-repeat;
   }
   .video-points {
     padding: 0 !important;
@@ -180,7 +180,6 @@
 
 .input:focus {
   background: transparent;
-  border-color: transparent;
   box-shadow: none;
   color: #fff;
   border-bottom: 2px solid var(--bs-primary);
@@ -367,15 +366,11 @@
 }
 
 .card-1 .card-top {
-  background: linear-gradient(to right, #919292, #434545);
-}
-
-.card-2 .card-top {
   background: linear-gradient(to right, #007cf0, #00dfd8);
 }
 
-.pricing-card:nth-child(3) .card-type {
-  background: linear-gradient(to right, #00d9fc, #174bff);
+.card-2 .card-top {
+  background: linear-gradient(to right, #7928ca, #ff0080);
 }
 
 .card-3 .card-top {
@@ -417,7 +412,7 @@
 .card-1 .month,
 .card-1 .list i,
 .card-1 .list span {
-  background: linear-gradient(to right, #919292, #434545);
+  background: linear-gradient(to right, #007cf0, #00dfd8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -426,7 +421,7 @@
 .card-2 .month,
 .card-2 .list i,
 .card-2 .list span {
-  background: linear-gradient(to right, #007cf0, #00dfd8);
+  background: linear-gradient(to right, #7928ca, #ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -452,11 +447,11 @@
 }
 
 .card-1 .card-btn {
-  background: linear-gradient(to right, #919292, #434545);
+  background: linear-gradient(to right, #007cf0, #00dfd8);
 }
 
 .card-2 .card-btn {
-  background: linear-gradient(to right, #007cf0, #00dfd8);
+  background: linear-gradient(to right, #7928ca, #ff0080);
 }
 
 .card-3 .card-btn {
