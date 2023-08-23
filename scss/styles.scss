@@ -58,6 +58,13 @@
   width: 24px;
 }
 
+.rotating {
+  // background: linear-gradient(to right, #7928ca, #ff0080);
+  background: linear-gradient(to right, #ef6c01, #f9cb28);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .btn-banner {
   border-radius: 5px !important;
 }
